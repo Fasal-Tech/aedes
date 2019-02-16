@@ -304,7 +304,7 @@ function defaultAuthorizeSubscribe (client, sub, callback) {
 }
 
 function defaultAuthorizeForward (client, packet, callback) {
-   callback(packet)
+  callback(packet)
 }
 
 function defaultPublished (packet, client, callback) {
